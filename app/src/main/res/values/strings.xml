@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="reboot">Сбросить</string>
+    <style name="TicTacToeButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+</resources>

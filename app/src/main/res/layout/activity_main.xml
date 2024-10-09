@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="323dp"
+        android:layout_height="327dp"
+        android:layout_margin="100dp"
+        android:background="@color/black"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintBottom_toTopOf="@+id/resetButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/TicTacToeButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reboot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
